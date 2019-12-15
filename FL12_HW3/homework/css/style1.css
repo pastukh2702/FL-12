@@ -1,0 +1,222 @@
+body {
+  margin: 0;
+  background: white; }
+
+header {
+  background: url(../img/m-h-day.jpg) no-repeat;
+  clip-path: inset(0 0 0 0 round 0 0 45% 0);
+  background-size: cover;
+  background-position: center;
+  height: 720px; }
+  header .header-wrap {
+    padding: 20px 190px;
+    width: 650px; }
+    header .header-wrap .landing-logo {
+      display: flex; }
+      header .header-wrap .landing-logo img {
+        height: 100%; }
+      header .header-wrap .landing-logo p, header .header-wrap .landing-logo main .section_card_wrap .section_card .section_card_right_container .section_card_heading, main .section_card_wrap .section_card .section_card_right_container header .header-wrap .landing-logo .section_card_heading, header .header-wrap .landing-logo main .section_card_wrap .section_card .section_card_right_container .section_card_text, main .section_card_wrap .section_card .section_card_right_container header .header-wrap .landing-logo .section_card_text, header .header-wrap .landing-logo footer .footer-wrap .footer-cr, footer .footer-wrap header .header-wrap .landing-logo .footer-cr {
+        margin: 0;
+        padding-left: 15px;
+        font-weight: bold;
+        font-family: "Hind", sans-serif;
+        font-size: 22px;
+        color: #262B3A;
+        text-align: center; }
+      header .header-wrap .landing-logo span {
+        display: block;
+        font-weight: 200;
+        font-size: 9px;
+        line-height: 9px; }
+    header .header-wrap .header_heading {
+      font-size: 70px;
+      font-family: "Source Sans Pro", sans-serif;
+      color: #262B3A;
+      font-weight: bold;
+      line-height: 70px;
+      position: relative;
+      z-index: 1; }
+      header .header-wrap .header_heading::after {
+        content: "";
+        position: absolute;
+        background-color: #00A1CA;
+        z-index: -1;
+        left: 0px;
+        top: 92px;
+        font-size: 50px;
+        width: 298px;
+        height: 50px; }
+    header .header-wrap .header_text {
+      font-size: 15px;
+      font-family: "Hind", sans-serif;
+      color: #262B3A;
+      font-weight: 100;
+      text-align: left;
+      word-wrap: break-word;
+      line-height: 25px; }
+    header .header-wrap div:last-child {
+      margin-top: 70px;
+      width: 480px; }
+      header .header-wrap div:last-child button {
+        background: #4A9A00;
+        color: white;
+        border: none;
+        height: 50px;
+        width: 145px;
+        font-family: "Source Sans Pro", sans-serif;
+        border-radius: 3px;
+        font-size: 20px;
+        font-weight: bold; }
+      header .header-wrap div:last-child a {
+        font-family: "Source Sans Pro", sans-serif;
+        color: white;
+        float: right;
+        display: flex;
+        align-items: center;
+        height: 50px;
+        font-size: 20px; }
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  main .section_text {
+    font-family: "Hind", sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    color: #262B3A;
+    position: relative;
+    z-index: 1; }
+    main .section_text::after {
+      content: "";
+      position: absolute;
+      background-color: #00A1CA;
+      z-index: -1;
+      left: 163px;
+      top: -7px;
+      font-size: 50px;
+      width: 133px;
+      height: 42px; }
+  main .section_card_wrap {
+    width: 1050px; }
+    main .section_card_wrap .section_card {
+      display: flex;
+      background: #1A1E2A;
+      border-radius: 5px;
+      padding: 20px;
+      color: white;
+      margin-bottom: 20px; }
+      main .section_card_wrap .section_card .section_card_img {
+        width: 100%;
+        border-radius: 5px; }
+      main .section_card_wrap .section_card .section_card_right_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 90px 10px 90px; }
+        main .section_card_wrap .section_card .section_card_right_container p, main .section_card_wrap .section_card .section_card_right_container .section_card_heading, main .section_card_wrap .section_card .section_card_right_container .section_card_text, main .section_card_wrap .section_card .section_card_right_container footer .footer-wrap .footer-cr, footer .footer-wrap main .section_card_wrap .section_card .section_card_right_container .footer-cr {
+          font-family: "Source Sans Pro", sans-serif; }
+        main .section_card_wrap .section_card .section_card_right_container .section_card_heading {
+          font-size: 20px;
+          font-weight: bold; }
+        main .section_card_wrap .section_card .section_card_right_container .section_card_text {
+          font-size: 15px;
+          color: #b6bfc7;
+          font-weight: 300;
+          line-height: 22px;
+          word-spacing: 4px;
+          text-align: justify; }
+        main .section_card_wrap .section_card .section_card_right_container a {
+          font-family: "Source Sans Pro", sans-serif;
+          color: #b6bfc7;
+          float: right;
+          display: flex;
+          align-items: center;
+          height: 50px;
+          font-size: 20px; }
+  main .section_banner {
+    width: 1120px;
+    background: linear-gradient(90deg, #4A9A00 0%, #00A1CA 80%);
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-around;
+    align-items: center;
+    transform: translateY(70px); }
+    main .section_banner .section_banner_heading {
+      font-family: "Hind", sans-serif;
+      font-size: 30px;
+      font-weight: bold;
+      margin-bottom: -10px;
+      color: #262B3A;
+      position: relative;
+      z-index: 1; }
+      main .section_banner .section_banner_heading::after {
+        content: "";
+        position: absolute;
+        background-color: #00A1CA;
+        z-index: -1;
+        left: 125px;
+        top: -10px;
+        font-size: 50px;
+        width: 63px;
+        height: 50px; }
+    main .section_banner .section_banner_text {
+      font-family: "Hind", sans-serif;
+      font-size: 16px;
+      font-weight: 300;
+      padding: 0px;
+      color: #b6bfc7;
+      margin-bottom: 40px; }
+    main .section_banner button {
+      background: #4A9A00;
+      color: white;
+      border: none;
+      height: 50px;
+      width: 145px;
+      font-family: "Source Sans Pro", sans-serif;
+      border-radius: 3px;
+      font-size: 20px;
+      font-weight: bold; }
+
+footer {
+  width: 100%;
+  height: 240px;
+  background: #1A1E2A;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end; }
+  footer .footer-wrap {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 190px 20px 190px;
+    margin-top: 50px; }
+    footer .footer-wrap .landing-logo {
+      display: flex; }
+      footer .footer-wrap .landing-logo img {
+        height: 100%; }
+      footer .footer-wrap .landing-logo p, footer .footer-wrap .landing-logo main .section_card_wrap .section_card .section_card_right_container .section_card_heading, main .section_card_wrap .section_card .section_card_right_container footer .footer-wrap .landing-logo .section_card_heading, footer .footer-wrap .landing-logo main .section_card_wrap .section_card .section_card_right_container .section_card_text, main .section_card_wrap .section_card .section_card_right_container footer .footer-wrap .landing-logo .section_card_text, footer .footer-wrap .landing-logo .footer-cr {
+        margin: 0;
+        padding-left: 15px;
+        font-weight: bold;
+        font-family: "Hind", sans-serif;
+        font-size: 22px;
+        color: white;
+        text-align: center; }
+      footer .footer-wrap .landing-logo span {
+        display: block;
+        font-weight: 200;
+        font-size: 9px;
+        line-height: 9px; }
+    footer .footer-wrap p, footer .footer-wrap main .section_card_wrap .section_card .section_card_right_container .section_card_heading, main .section_card_wrap .section_card .section_card_right_container footer .footer-wrap .section_card_heading, footer .footer-wrap main .section_card_wrap .section_card .section_card_right_container .section_card_text, main .section_card_wrap .section_card .section_card_right_container footer .footer-wrap .section_card_text, footer .footer-wrap .footer-cr {
+      font-family: "Source Sans Pro", sans-serif;
+      color: #b6bfc7;
+      font-weight: 300; }
+    footer .footer-wrap .footer_text {
+      width: 270px;
+      font-size: 11px; }
+    footer .footer-wrap .footer-cr {
+      font-size: 13px; }
