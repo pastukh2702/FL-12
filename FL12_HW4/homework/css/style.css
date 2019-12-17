@@ -1,0 +1,225 @@
+@charset "UTF-8";
+header {
+  width: 100%;
+  height: 100vh;
+}
+header nav {
+  height: 5vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header nav .logo {
+  margin: 0;
+  font-size: 1.3vw;
+  text-transform: uppercase;
+  color: #545454;
+  font-weight: 500;
+  letter-spacing: 4px;
+}
+header nav .menu li {
+  display: inline;
+}
+header nav .menu li a {
+  text-decoration: none;
+  color: #777;
+  font-size: 1vw;
+  margin-left: 3vw;
+}
+header nav .menu li a:hover {
+  color: #bfba55;
+}
+header section {
+  overflow: hidden;
+  height: calc(100vh - 5vw);
+  background: black;
+}
+header section img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0.4;
+}
+header section .home-text {
+  position: absolute;
+  top: 85px;
+  height: calc(100% - 5vw);
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+header section .home-text h1 {
+  color: white;
+}
+header section .home-text p {
+  color: #bfba55;
+  margin-top: 2vw;
+}
+header section .home-text button {
+  margin-top: 3vw;
+}
+
+.main-wrap {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 6vw;
+}
+
+.blogs {
+  width: 65vw;
+}
+.blogs .blog .blog-img {
+  width: 100%;
+}
+.blogs .blog h2 {
+  margin-top: 2.5vw;
+  margin-bottom: 1vw;
+}
+.blogs .blog .blog-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.blogs .blog .blog-details .author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 20px;
+}
+.blogs .blog .blog-details .author .author-name {
+  margin-left: 15px;
+  font-size: 1.2vw;
+}
+.blogs .blog .blog-details .author .author-img {
+  height: 3vw;
+  border-radius: 50%;
+}
+.blogs .blog .blog-details .date {
+  margin-right: 20px;
+  font-size: 1.2vw;
+}
+.blogs .blog .blog-details .comments p {
+  font-size: 1.2vw;
+}
+.blogs .blog .blog-details .comments .comments-count::before {
+  content: "⚑ ";
+}
+.blogs .blog .blog-text {
+  font-size: 1.2vw;
+  margin-top: 1vw;
+  line-height: 1.7vw;
+  word-spacing: 0.2vw;
+}
+.blogs .blog button {
+  margin-top: 3vw;
+  margin-bottom: 4vw;
+}
+.blogs .blog hr {
+  color: #777;
+  margin-bottom: 6vw;
+}
+
+footer {
+  width: 100%;
+  height: 21vw;
+  background: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+footer .footer-wrap {
+  margin: auto;
+  width: 65vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+footer .footer-wrap h2 {
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 1vw;
+}
+footer .footer-wrap p {
+  font-size: 1.2vw;
+  margin-top: 1vw;
+  line-height: 1.7vw;
+  word-spacing: 0.2vw;
+}
+footer .footer-wrap .block1 {
+  width: 50%;
+  padding-right: 6vw;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
+
+h1 {
+  font-size: 5vw;
+  margin: 0;
+}
+
+h2 {
+  font-size: 2vw;
+  margin: 0;
+}
+
+p {
+  font-size: 1.4vw;
+  margin: 0;
+  color: #777;
+}
+
+button {
+  border: 1px solid #777;
+  padding: 1vw 2vw 1vw 2vw;
+  border-radius: 50px;
+  font-size: 1vw;
+  text-transform: uppercase;
+  color: #777;
+}
